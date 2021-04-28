@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ProfilingTarget xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ProjectTarget>
+    <TargetProject>8a15e7dc-521a-4363-9003-383d60fad8c3</TargetProject>
+    <FriendlyName>Magic mrazi</FriendlyName>
+  </ProjectTarget>
+  <Reports>
+    <Report>
+      <Filename>C:\Users\Матвей\AppData\Local\Temp\Magic mrazi_20210429.vsp</Filename>
+    </Report>
+  </Reports>
+  <UseVTune>false</UseVTune>
+</ProfilingTarget>

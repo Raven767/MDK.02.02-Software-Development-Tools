@@ -1,0 +1,4 @@
+
+{"stud@mail.ru": "what"}
+{"spd@mail.ru": "who"}
+{"stud@mail.ru": "utdx"}
