@@ -7,13 +7,13 @@ def Entry_form():
     author = request.forms.get('Author')
     news = request.forms.get('News')
     date = request.forms.get('Date')
-    telefhone = request.forms.get('Telefhone')
+    #telefhone = request.forms.get('Telefhone')
     f=open("test1.txt","a",encoding="utf-8")
-    f.writelines("---------------------------------------------------------------------"+"\n")
+    f.writelines("---"+"\n")
     f.writelines(author+"\n")
     f.writelines(news+"\n")
     f.writelines(date+"\n")
-    f.writelines(telefhone+"\n")
+    #f.writelines(telefhone+"\n")
     f.close()
     return  ('''<h2 align=center> </h2>'''+"<br>"+'''
     <style>

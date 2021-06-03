@@ -4,13 +4,10 @@
    %int_number = file.read()
 <style>
     .form textarea {
-        width: 500px;
-        height: 500px
-    }
-
-    .form textarea {
-        width: 500px;
-        height: 500px
+        width: 400px;
+        max-width: 400px;
+        min-width: 400px;
+        line-height: 150%;
     }
 </style>
 <h2>{{ title }}</h2>
@@ -31,11 +28,6 @@
      <p>
          <label for="Date"><span class="formTextRed">*</span> Date:</label>
          <input type="text" name="Date" id="date" />
-     </p>
-
-     <p>
-         <label for="Telefhone"><span class="formTextRed">*</span> Telefhone:</label>
-         <input type="text" name="Telefhone" id="telefhone" />
      </p>
 
      <p>
