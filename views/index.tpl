@@ -22,10 +22,9 @@
         <img src= "static\image\Wookiee.png">
         <p>It's not wise to upset a Wookiee.</p>
         <p><a class="btn btn-default" href=/Wookiee>Learn more &raquo;</a></p>
-<h3> Ask a Question </h3>
-<form action="/index" method="post">
-        <p><textarea rows="2" cols="50" name="QUEST" placeholder="Your question"></textarea></p> 
-        <p><input type="text" size="50" name="ADRESS" placeholder="Your email"></p>
-        <input type="submit" class="btn btn-default" value="Send">
-</form>
+    </div>
+</div>
+<div>
+    <h3>News</h3>
+    <p><a class="btn btn-default" href=/test>Go</a></p>
 </div>

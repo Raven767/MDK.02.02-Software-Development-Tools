@@ -10,7 +10,7 @@ def my_form():
     if qwer=="" or  mail=="":
          return "Not all fields are filled "
     else:
-        match = re.search ('^(\w|\.|\_|\-)+[@](\w|\_|\-|\.)+[.]\w{2,5}$', mail)
+        match = re.search (r'[a-zA-Z0-9_+-]+[@][a-zA-Z0-9-.]+[^.]\.[a-zA-Z0-9-.]{2,3}$', mail)
         if match!=None:
             questions[mail]=qwer
             with open ('data.txt','a') as outfile:

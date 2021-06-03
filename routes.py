@@ -3,7 +3,7 @@ Routes and views for the bottle application.
 """
 
 from bottle import route, view
-
+import test
 
 @route('/')
 @route('/home')
@@ -37,5 +37,21 @@ def about():
     """Renders the about page."""
     return dict(
         title='Wookiee'
+
+    )
+@route('/News')
+@view('News')
+def about():
+    """Renders the about page."""
+    return dict(
+        title='News'
+
+    )
+@route('/test')
+@view('test')
+def about():
+    """Renders the about page."""
+    return dict(
+        title='test'
 
     )
