@@ -1,38 +1,74 @@
 % rebase('layout.tpl', title=title)
 <form method="post" action="/test" class="form">
+<!--открытие файла для вывода информации-->
 %with open("test1.txt",encoding="utf-8") as file:
    %int_number = file.read()
+<!--стили для кнопок и лейблов -->
 <style>
-    .form textarea {
+    .block-left {
+        width:50%;
+        height:800px;
+        overflow:auto;
+        float:left;
+    }
+    .block-right{
+    width:50%;
+    height:800px;
+    overflow:auto;
+    }
+
+    body {
+        background: #F6F9F9;
+    }
+
+    .form input, .form textarea, .form select 
+    {
+        padding: 9px;
+        border: 1px solid #E5E5E5;
+        border-radius: 5px;
+    }
+    .form textarea
+    {
         width: 400px;
         max-width: 400px;
         min-width: 400px;
         line-height: 150%;
+        resize: none;
     }
 </style>
-<h2>{{ title }}</h2>
-<h3>Latest news</h3>
-<textarea id="text" name="text" rows ="10">{{int_number}}</textarea>
 <body>
     <div  class=block-left id=left>
+    <h2>News</h2>
+    <h3>Latest news</h3>
+    <!--поля для вывода содержимого файла-->
+    <textarea id="text" name="text" rows ="10" readonly>{{int_number}}</textarea>
+    </div>
+    <!--новый класс с правой стороны -->
+    <div class=block-right>
+    <br>
+    <!--поля для ввода автора-->
      <p>
          <label for="Author"><span class="formTextRed">*</span> Author:</label>
          <input type="text" name="Author" id="author" />
      </p>
-
+     <!--поля для ввода новостей-->
      <p>
          <label for="News"><span class="formTextRed">*</span> News:</label>
-         <input type="text" name="News" id="news" />
+         <textarea class=textarea1 rows="10" name="News" id="news"></textarea>
      </p>
-
+     <!--поля для ввода даты-->
      <p>
          <label for="Date"><span class="formTextRed">*</span> Date:</label>
-         <input type="text" name="Date" id="date" />
+         <input type="date" name="Date" id="date" />
      </p>
 
      <p>
          <class="submit">
-         <input type="submit" velues="Send" />
+         <input type="submit" values="Send" />
+     </p>
+     <!--кнопка домой-->
+     <p>
+        <a class="btn btn-default" href=/home>Back</a>
      </p>
      </div>
 </body>

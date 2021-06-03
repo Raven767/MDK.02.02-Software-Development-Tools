@@ -2,6 +2,15 @@
 Первая новинка 2021: Джавы — аборигены Татуина, — разумные создания, ростом приблизительно около метра (в Эпизоде IV был замечен более высокий джава, выстраивающий дроидов для показа Люку и Оуэну).
 2021.06.01
 ------
+---
 rinat
 varkgfjf
-2001.01.11
+2021-06-03
+---
+dima
+Ð¸ ÐºÐ¾Ð¼Ð¿Ð°Ð½Ð¸Ð¸. Ð 2014 Ð³Ð¾Ð´Ñ, ÐºÐ¾Ð³Ð´Ð° ÑÐ±ÐµÐ´Ð¸Ð»Ð¸ÑÑ, ÑÑÐ¾ Ð½Ð°ÑÐ° ÑÐºÑÐ¿ÐµÑÑÐ¸Ð·Ð° Ð¿Ð¾Ð·Ð²Ð¾Ð»ÑÐµÑ ÑÐµÐ°Ð»Ð¸Ð·Ð¾Ð²ÑÐ²Ð°ÑÑ Ð½Ðµ ÑÐ¾Ð»ÑÐºÐ¾ Ð²Ð½ÑÑÑÐµÐ½Ð½Ð¸Ðµ Ð·Ð°Ð´Ð°ÑÐ¸, Ð¼Ñ ÑÑÐ°Ð»Ð¸ Ð¿ÑÐµÐ´Ð»Ð°Ð³Ð°ÑÑ
+2021-06-15
+---
+rinat
+Responsibility Assignment Matrix (RAM) â a table describing the distribution of responsibility for the implementation of work on the project, indicating the role of each of the departments (performers). The responsibility allocation matrix is compiled by correlating the individual elements of the SDR and the SDR.
+2021-06-09
