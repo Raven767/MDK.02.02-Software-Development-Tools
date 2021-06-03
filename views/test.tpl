@@ -56,6 +56,10 @@
          <label for="News"><span class="formTextRed">*</span> News:</label>
          <textarea class=textarea1 rows="10" name="News" id="news"></textarea>
      </p>
+     <p>
+         <label for="Telefhone"><span class="formTextRed">*</span> Telefhone:</label>
+         <input type="text" name="Telefhone" id="Telefhone" />
+     </p>
      <!--поля для ввода даты-->
      <p>
          <label for="Date"><span class="formTextRed">*</span> Date:</label>

@@ -14,3 +14,8 @@ dima
 rinat
 Responsibility Assignment Matrix (RAM) â a table describing the distribution of responsibility for the implementation of work on the project, indicating the role of each of the departments (performers). The responsibility allocation matrix is compiled by correlating the individual elements of the SDR and the SDR.
 2021-06-09
+---
+rinat
+1
+2021-06-16
++7 432 2099107

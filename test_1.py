@@ -3,9 +3,9 @@ import re
 import myform
 class Test_test_1(unittest.TestCase):
     def test_F(self):
-        list_mail = ["", "1", "m1@", "@mail", "regr@_ru", "@mail.r", "mail.ru", "@ru.mail",".@mail.ru","Я@ТЫ@mail.ru","@mail..ru"] 
+        telefhone = ["", "1", "0987654321", "123456789012", "1224", "-84763554", ".99872632232"] 
         for i in range (len(list_mail)):
-            regex=re.search(r'[a-zA-Z0-9_+-]+[@][a-zA-Z0-9-.]+[^.]\.[a-zA-Z0-9-.]{2,3}$', list_mail[i])
+            regex=re.search('^([+]?\d{1,2}[-\s]?|)\d{3}[-\s]?\d{3}[-\s]?\d{4}$', telefhone[i])
         self.assertFalse(regex)
 
 if __name__ == '__main__':
